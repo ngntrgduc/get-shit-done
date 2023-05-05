@@ -1,0 +1,30 @@
+{
+    "name": "Get shit done",
+    "version": "0.0.2",
+    "description": "No more procrastination",
+    "manifest_version": 3,
+    "action": {
+        "default_title": "Get shit done",
+        "default_icon": "assets/icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.facebook.com/*",
+                        "https://www.messenger.com/*",
+                        "https://discord.com/*",
+                        "https://www.instagram.com/*"],
+            "js": ["getshitdone.js"]
+        }
+    ],
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Alt+G"
+            }
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "scripting"]
+}
