@@ -1,16 +1,16 @@
 # Get shit done
 No more procrastination.
-## Why ?
+## Why?
 Because procrastinationnnnnnnnnnnnnnnnnnnnnnnnnn.
 
 ## Features
-- No more procrastination, time saving.
-- Easily toggle on/off (when you really need to procrastination).
+- No more procrastination, time-saving.
+- Easily toggle on/off (when you really need to procrastinate).
 - Currently support sites: Facebook, Messenger, Instagram, Discord
 - Can manage specific sites to block. 
 
-## How it works ?
-~~I don't know, I randomly deleted some lines of code and it just works.~~ When toggle, this extension will "block" some specific sites by turn it to black background with a very motivating quote: "**Get shit done**".
+## How it works?
+~~I don't know, I randomly deleted some lines of code and it just works.~~ When toggle, this extension will "block" some specific sites by turning it to a black background with a very motivating quote: "**Get shit done**".
 
 ## How to use
 1. Clone this repository/[download zip](https://github.com/ngntrgduc/get-shit-done/archive/refs/heads/master.zip) and extract to a folder on your local machine. 
