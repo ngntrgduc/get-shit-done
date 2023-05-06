@@ -1,7 +1,4 @@
-if (localStorage.getItem("getshitdone") == "no") { 
-    // alert('no');
-} else {
-    // alert('yes');
+if (localStorage.getItem("getshitdone") == "yes") { 
     document.head.innerHTML = `
     <style>
     html {   
@@ -21,4 +18,4 @@ if (localStorage.getItem("getshitdone") == "no") {
         GET SHIT DONE
     </div>
     `
-}
+} else {}
