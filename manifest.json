@@ -1,6 +1,6 @@
 {
     "name": "Get shit done",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "No more procrastination",
     "manifest_version": 3,
     "action": {
