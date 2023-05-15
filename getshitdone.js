@@ -10,6 +10,9 @@ if (localStorage.getItem("getshitdone") == "yes") {
     let i = Math.floor(Math.random() * quotes.length);
 
     document.head.innerHTML = `
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <style>
     html {   
         background-color: black;
@@ -19,6 +22,7 @@ if (localStorage.getItem("getshitdone") == "yes") {
         transform: translate(-50%, -50%);
         font-size: 60pt;
         color: white;
+        font-family: 'Roboto Mono', monospace;
     }
     </style>
     `
