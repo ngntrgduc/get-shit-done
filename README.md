@@ -13,7 +13,7 @@ Because procrastinationnnnnnnnnnnnnnnnnnnnnnnnnn.
 ## How it works?
 ~~I don't know, I randomly deleted some lines of code and it just works.~~ When toggle, this extension will "block" some specific sites by turning it to a black background with a random motivating quote.
 
-![image](https://user-images.githubusercontent.com/47920109/236664720-04f5349e-d478-4998-98b2-060b6a125c39.png)
+![image](https://github.com/ngntrgduc/get-shit-done/assets/47920109/798e2248-9fd7-4427-8dac-4123c0c72f79)
 
 ## How to use
 1. Clone this repository/[download zip](https://github.com/ngntrgduc/get-shit-done/archive/refs/heads/master.zip) and extract to a folder on your local machine. 
