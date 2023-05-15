@@ -1,4 +1,14 @@
 if (localStorage.getItem("getshitdone") == "yes") { 
+    let quotes = [
+        "GET SHIT DONE",
+        "KEEP CALM",
+        "HELLO ?",
+        "NOTHING HERE",
+        "PROCRASTINATION",
+        "404"
+    ]
+    let i = Math.floor(Math.random() * quotes.length);
+
     document.head.innerHTML = `
     <style>
     html {   
@@ -12,10 +22,5 @@ if (localStorage.getItem("getshitdone") == "yes") {
     }
     </style>
     `
-
-    document.body.innerHTML = `
-    <div> 
-        GET SHIT DONE
-    </div>
-    `
+    document.body.innerHTML = `<div>` + quotes[i] + `</div>`
 } else {}
