@@ -29,5 +29,5 @@ Then turn on `Developer mode`. Finally, click `Load unpacked` and select the fol
 3. - Make the extension more visible by `Pin` (Chrome) / `Show in toolbar` (Edge). 
    - Create a shortcut to toggle the extension easier (default is `Alt + G`).
    - If you want to add/delete sites, go to the source code folder and add/delete sites you want in `manifest.json`, using [match patterns](https://developer.chrome.com/docs/extensions/mv3/match_patterns/).
-   - If you want to add.delete quote, go to `getshitdone.js` and change it.
+   - If you want to add/delete quotes, go to `getshitdone.js` and change it in `quotes` array.
 4. No more procrastination ✨. 
