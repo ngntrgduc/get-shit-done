@@ -1,6 +1,6 @@
 {
     "name": "Get shit done",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "No more procrastination",
     "manifest_version": 3,
     "action": {
@@ -12,7 +12,8 @@
             "matches": ["https://www.facebook.com/*",
                         "https://www.messenger.com/*",
                         "https://discord.com/*",
-                        "https://www.instagram.com/*"],
+                        "https://www.instagram.com/*",
+                        "https://www.tiktok.com/*"],
             "js": ["getshitdone.js"]
         }
     ],

@@ -5,7 +5,8 @@ if (localStorage.getItem("getshitdone") == "yes") {
         "HELLO ?",
         "NOTHING HERE",
         "PROCRASTINATION",
-        "404"
+        "404",
+        "FUCK-UP"
     ]
     let i = Math.floor(Math.random() * quotes.length);
 

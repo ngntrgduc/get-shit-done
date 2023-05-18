@@ -6,7 +6,7 @@ Because procrastinationnnnnnnnnnnnnnnnnnnnnnnnnn.
 ## Features
 - No more procrastination, time-saving.
 - Easily toggle on/off (when you really need to procrastinate).
-- Currently support sites: Facebook, Messenger, Instagram, Discord.
+- Currently support sites: Facebook, Messenger, Instagram, Discord, TikTok.
 - Can manage specific sites to block. 
 - Have multiple motivation quotes.
 
