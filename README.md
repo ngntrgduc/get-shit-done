@@ -6,8 +6,9 @@ Because procrastinationnnnnnnnnnnnnnnnnnnnnnnnnn.
 ## Features
 - No more procrastination, time-saving.
 - Easily toggle on/off (when you really need to procrastinate).
-- Currently support sites: Facebook, Messenger, Instagram, Discord, TikTok.
-- Can manage specific sites to block. 
+- Can block sites forever (cannot toggle on/off).
+- Currently support sites: Facebook (block forever because too many advertisements recently), Messenger, Instagram, Discord, TikTok.
+- Can manage specific sites to block.
 - Have multiple motivation quotes.
 
 ## How it works?
@@ -30,4 +31,5 @@ Then turn on `Developer mode`. Finally, click `Load unpacked` and select the fol
    - Create a shortcut to toggle the extension easier (default is `Alt + G`).
    - If you want to add/delete sites, go to the source code folder and add/delete sites you want in `manifest.json`, using [match patterns](https://developer.chrome.com/docs/extensions/mv3/match_patterns/).
    - If you want to add/delete quotes, go to `getshitdone.js` and change it in `quotes` array.
-4. No more procrastination ✨. 
+   - If you want to unblock site forever (ex. Facebook), just delete it in `manifest.json`, or you can turn off the extension temporarily.
+4. No more procrastination ✨.
