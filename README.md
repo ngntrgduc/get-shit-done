@@ -1,14 +1,16 @@
 # Get shit done
 No more procrastination.
+
 ## Why?
 Because procrastinationnnnnnnnnnnnnnnnnnnnnnnnnn.
 
 ## Features
-- No more procrastination, time-saving.
-- Easily toggle on/off (when you really need to procrastinate).
-- Can block sites forever (cannot toggle on/off).
+- No more procrastination, **time-saving**.
+- Easily toggle on/off (when you really need to procrastinate), auto reload page after toggle.
+- Can block sites **forever** (cannot toggle on/off).
 - Currently support sites: Facebook (block forever because too many advertisements recently), Messenger, Instagram, Discord, TikTok.
 - Can manage specific sites to block.
+- Can block site in a specific time range (default: 11:00 PM - 6:00 AM).
 - Have multiple motivation quotes.
 
 ## How it works?
@@ -32,4 +34,5 @@ Then turn on `Developer mode`. Finally, click `Load unpacked` and select the fol
    - If you want to add/delete sites, go to the source code folder and add/delete sites you want in `manifest.json`, using [match patterns](https://developer.chrome.com/docs/extensions/mv3/match_patterns/).
    - If you want to add/delete quotes, go to `getshitdone.js` and change it in `quotes` array.
    - If you want to unblock site forever (ex. Facebook), just delete it in `manifest.json`, or you can turn off the extension temporarily.
+   - If you want to change / remove block time range, go to `getshitdone.js`.
 4. No more procrastination ✨.
