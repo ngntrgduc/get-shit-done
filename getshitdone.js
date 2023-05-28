@@ -1,13 +1,13 @@
-if (localStorage.getItem("getshitdone") == "yes") { 
+const date = new Date();
+let hour = date.getHours();
+
+function getshitdone() {
     let quotes = [
         "GET SHIT DONE",
         "KEEP CALM",
-        "HELLO ?",
-        "NOTHING HERE",
-        "PROCRASTINATION",
-        "404",
         "FUCK-UP"
     ]
+
     let i = Math.floor(Math.random() * quotes.length);
 
     document.head.innerHTML = `
@@ -25,4 +25,14 @@ if (localStorage.getItem("getshitdone") == "yes") {
     </style>
     `
     document.body.innerHTML = `<div>` + quotes[i] + `</div>`
-} else {}
+}
+
+// From 11:00 PM - 06:00 AM, no more procrastination
+// Hour range from 0 to 23
+if (hour == 23 || (hour >= 0 && hour <= 6)) {
+    getshitdone();
+}
+
+if (localStorage.getItem("getshitdone") == "yes") { 
+    getshitdone();
+}

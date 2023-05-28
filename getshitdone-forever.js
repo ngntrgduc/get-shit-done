@@ -1,12 +1,9 @@
 let quotes = [
     "GET SHIT DONE",
     "KEEP CALM",
-    "HELLO ?",
-    "NOTHING HERE",
-    "PROCRASTINATION",
-    "404",
     "FUCK-UP"
 ]
+
 let i = Math.floor(Math.random() * quotes.length);
 
 document.head.innerHTML = `
