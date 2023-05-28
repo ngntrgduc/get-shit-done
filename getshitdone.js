@@ -25,6 +25,7 @@ function getshitdone() {
     </style>
     `
     document.body.innerHTML = `<div>` + quotes[i] + `</div>`
+    document.title = quotes[i];
 }
 
 // From 11:00 PM - 06:00 AM, no more procrastination

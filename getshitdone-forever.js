@@ -21,3 +21,4 @@ html {
 </style>
 `
 document.body.innerHTML = `<div>` + quotes[i] + `</div>`
+document.title = quotes[i];
