@@ -4,6 +4,11 @@ No more procrastination.
 ## Why?
 Because procrastinationnnnnnnnnnnnnnnnnnnnnnnnnn.
 
+## How it works?
+~~I don't know, I randomly deleted some lines of code and it just works.~~ When toggle, this extension will "block" some specific sites by turning it to a black background with a random motivating quote.
+
+![image](https://github.com/ngntrgduc/get-shit-done/assets/47920109/798e2248-9fd7-4427-8dac-4123c0c72f79)
+
 ## Features
 - No more procrastination, **time-saving**.
 - Easily toggle on/off (when you really need to procrastinate), auto reload page after toggle.
@@ -12,11 +17,6 @@ Because procrastinationnnnnnnnnnnnnnnnnnnnnnnnnn.
 - Can manage specific sites to block.
 - Can block site in a specific time range (default: 11:00 PM - 6:00 AM).
 - Have multiple motivation quotes.
-
-## How it works?
-~~I don't know, I randomly deleted some lines of code and it just works.~~ When toggle, this extension will "block" some specific sites by turning it to a black background with a random motivating quote.
-
-![image](https://github.com/ngntrgduc/get-shit-done/assets/47920109/798e2248-9fd7-4427-8dac-4123c0c72f79)
 
 ## How to use
 1. Clone this repository/[download zip](https://github.com/ngntrgduc/get-shit-done/archive/refs/heads/master.zip) and extract to a folder on your local machine. 
