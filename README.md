@@ -1,6 +1,5 @@
 # Get shit done
 ![](https://img.shields.io/github/manifest-json/v/ngntrgduc/get-shit-done?style=flat-square)
-![](https://img.shields.io/tokei/lines/github/ngntrgduc/get-shit-done?style=flat-square)
 
 No more procrastination.
 
