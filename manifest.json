@@ -7,18 +7,26 @@
         "default_title": "Get shit done",
         "default_icon": "assets/icon.png"
     },
+    "icons": {
+        "16": "assets/icon.png",
+        "48": "assets/icon.png",
+       "128": "assets/icon.png" 
+    },
     "content_scripts": [
         {
-            "matches": ["https://www.facebook.com/*",
-                        "https://www.messenger.com/*",
-                        "https://discord.com/*",
-                        "https://www.instagram.com/*",
-                        "https://www.tiktok.com/*"],
-            "js": ["getshitdone.js"]
+            "matches": [
+                "https://www.facebook.com/*"
+            ],
+            "js": ["getshitdone-forever.js"]
         },
         {
-            "matches": ["https://www.facebook.com/*"],
-            "js": ["getshitdone-forever.js"]
+            "matches": [
+                "https://www.messenger.com/*",
+                "https://discord.com/*",
+                "https://www.instagram.com/*",
+                "https://www.tiktok.com/*"
+            ],
+            "js": ["getshitdone.js"]
         }
     ],
     "commands": {
