@@ -16,7 +16,7 @@ Because procrastinationnnnnnnnnnnnnnnnnnnnnnnnnn.
 - Can block sites **forever** (cannot toggle on/off).
 - Currently support sites: Facebook (block forever because too many advertisements recently), Messenger, Instagram, Discord, TikTok.
 - Can manage specific sites to block.
-- Can block site in a specific time range (default: 11:00 PM - 6:00 AM).
+- Can block site in a specific time range (default: 10:00 PM - 6:00 AM).
 - Have multiple motivation quotes.
 
 ## How to use
