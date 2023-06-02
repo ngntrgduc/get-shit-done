@@ -37,3 +37,6 @@ Then turn on `Developer mode`. Finally, click `Load unpacked` and select the fol
    - If you want to unblock site forever (ex. Facebook), just delete it in `manifest.json`, or you can turn off the extension temporarily.
    - If you want to change / remove block time range, go to `getshitdone.js`.
 4. No more procrastination ✨.
+
+## Coffee
+If you like this project and want to support me, you can [buy me a coffee :coffee:](https://ko-fi.com/ngntrgduc).
