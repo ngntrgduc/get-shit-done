@@ -24,8 +24,7 @@
                 "https://www.facebook.com/*",
                 "https://www.messenger.com/*",
                 "https://discord.com/*",
-                "https://www.instagram.com/*",
-                "https://www.tiktok.com/*"
+                "https://www.instagram.com/*"
             ],
             "js": ["getshitdone.js"]
         }
