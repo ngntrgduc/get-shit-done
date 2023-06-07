@@ -14,7 +14,7 @@ Because procrastinationnnnnnnnnnnnnnnnnnnnnnnnnn.
 - No more procrastination, **time-saving**.
 - Easily toggle on/off (when you really need to procrastinate), auto reload page after toggle.
 - Can block sites **forever** (cannot toggle on/off).
-- Currently support sites: Facebook (block forever because too many advertisements recently), Messenger, Instagram, Discord, TikTok.
+- Currently support sites: Facebook, Messenger, Instagram, Discord, TikTok (block forever).
 - Can manage specific sites to block.
 - Can block site in a specific time range (default: 10:00 PM - 6:00 AM).
 - Have multiple motivation quotes.
