@@ -1,12 +1,14 @@
+**Note**: This repository is no longer maintained.
+
 # Get shit done ![](https://img.shields.io/github/manifest-json/v/ngntrgduc/get-shit-done?style=flat-square)
 
 No more procrastination.
 
 ## Why?
-Because procrastinationnnnnnnnnnnnnnnnnnnnnnnnnn.
+Because procrastination.
 
 ## How it works?
-~~I don't know, I randomly deleted some lines of code and it just works.~~ When toggle, this extension will "block" some specific sites by turning it to a black background with a random motivating quote.
+When toggle, this extension will "block" some specific sites by turning it to a black background with a random motivating quote.
 
 ![image](https://github.com/ngntrgduc/get-shit-done/assets/47920109/798e2248-9fd7-4427-8dac-4123c0c72f79)
 
@@ -17,7 +19,7 @@ Because procrastinationnnnnnnnnnnnnnnnnnnnnnnnnn.
 - Currently support sites: Facebook, Messenger, Instagram, Discord, TikTok (block forever).
 - Can manage specific sites to block.
 - Can block site in a specific time range (default: 10:00 PM - 6:00 AM).
-- Have multiple motivation quotes.
+- Have multiple motivation quotes or you can create your own.
 
 ## How to use
 1. Clone this repository/[download zip](https://github.com/ngntrgduc/get-shit-done/archive/refs/heads/master.zip) and extract to a folder on your local machine. 
