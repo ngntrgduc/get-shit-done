@@ -30,7 +30,7 @@ function getshitdone() {
 
 // From 10:00 PM - 06:00 AM, no more procrastination
 // Hour range from 0 to 23
-if (hour == 22 || (hour >= 0 && hour <= 6)) {
+if (hour >= 22 || (hour >= 0 && hour <= 6)) {
     getshitdone();
 }
 
