@@ -1,9 +1,7 @@
 function getshitdone() {
-    if (localStorage.getItem("getshitdone") == "yes") {
-        localStorage.setItem("getshitdone", "no");
-    } else {
-        localStorage.setItem("getshitdone", "yes");
-    }
+    const status = localStorage.getItem("getshitdone");
+    const newStatus = (status == "yes") ? "no" : "yes";
+    localStorage.setItem("getshitdone", newStatus);
     location.reload() // auto reload, time-saving
 }
 
