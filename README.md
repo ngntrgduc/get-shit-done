@@ -1,7 +1,4 @@
-**Note**: This repository is no longer maintained.
-
-# Get shit done ![](https://img.shields.io/github/manifest-json/v/ngntrgduc/get-shit-done?style=flat-square)
-
+# Get shit done
 No more procrastination.
 
 ## Why?
@@ -17,7 +14,7 @@ When toggle, this extension will "block" some specific sites by turning it to a 
 - Easily toggle on/off (when you really need to procrastinate), auto reload page after toggle.
 - Can block sites **forever** (cannot toggle on/off).
 - Currently support sites: Facebook, Messenger, Instagram, Discord, TikTok (block forever).
-- Can manage specific sites to block.
+- Can manage specific sites to block in [`manifest.json`](/manifest.json).
 - Can block site in a specific time range (default: 10:00 PM - 6:00 AM).
 - Have multiple motivation quotes or you can create your own.
 
