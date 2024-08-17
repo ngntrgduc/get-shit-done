@@ -17,12 +17,13 @@ function getshitdone() {
         'KEEP CALM',
     ];
     let i = Math.floor(Math.random() * quotes.length);
+    document.body.innerHTML = ''; // Clear existing content
     document.body.innerHTML = `<div>${quotes[i]}</div>`
     document.title = quotes[i];
 }
 
 function inBlockRange(hour) {
-    // Block from 9 PM to 06:00 AM
+    // Block from 9 PM to 6 AM
     // Hour range from 0 to 23
     return hour >= 21 || (hour >= 0 && hour <= 6)
 }

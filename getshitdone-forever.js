@@ -16,5 +16,6 @@ const quotes = [
     'KEEP CALM',
 ];
 const i = Math.floor(Math.random() * quotes.length);
+document.body.innerHTML = ''; // Clear existing content
 document.body.innerHTML = `<div>${quotes[i]}</div>`
 document.title = quotes[i];
