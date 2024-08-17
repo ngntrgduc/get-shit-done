@@ -22,9 +22,9 @@ function getshitdone() {
 }
 
 function inBlockRange(hour) {
-    // Allow using all day except from 6 AM to 10 AM
+    // Block from 9 PM to 06:00 AM
     // Hour range from 0 to 23
-    return !(hour >= 6 && hour < 10)
+    return hour >= 21 || (hour >= 0 && hour <= 6)
 }
 
 const date = new Date();

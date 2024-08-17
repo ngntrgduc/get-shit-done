@@ -1,6 +1,6 @@
 {
     "name": "Get shit done",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "No more procrastination",
     "manifest_version": 3,
     "action": {
@@ -15,29 +15,24 @@
     "content_scripts": [
         {
             "matches": [
-                "https://www.tiktok.com/*"
+                "https://www.tiktok.com/*",
+                "https://www.facebook.com/watch/*",
+                "https://www.facebook.com/reel/*"
             ],
             "js": ["getshitdone-forever.js"]
         },
         {
             "matches": [
+                "https://www.messenger.com/*"
+            ],
+            "js": ["getshitdone-night.js"]
+        },
+        {
+            "matches": [
                 "https://www.facebook.com/*",
-                "https://www.messenger.com/*",
-                "https://discord.com/*",
                 "https://www.instagram.com/*"
             ],
             "js": ["getshitdone.js"]
         }
-    ],
-    "commands": {
-        "_execute_action": {
-            "suggested_key": {
-                "default": "Alt+G"
-            }
-        }
-    },
-    "background": {
-        "service_worker": "background.js"
-    },
-    "permissions": ["activeTab", "scripting"]
+    ]
 }
