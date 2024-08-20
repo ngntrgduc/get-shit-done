@@ -23,7 +23,7 @@ function getshitdone() {
 }
 
 function inBlockRange(hour) {
-    // Allow using all day except from 6 to 10 AM
+    // Block all day except from 6 to 10 AM
     // Hour range from 0 to 23
     return !(hour >= 6 && hour < 10)
 }
