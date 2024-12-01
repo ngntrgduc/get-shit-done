@@ -11,6 +11,13 @@ function getshitdone() {
         }
         </style>`;
     document.body.innerHTML = `<div>👁️</div>`;
+    // Or you can add motivational quotes
+    // const quotes = [
+    //     'KEEP CALM', // Add more here... 
+    // ];
+    // const i = Math.floor(Math.random() * quotes.length);
+    // document.body.innerHTML = ''; // Clear existing content
+    // document.body.innerHTML = `<div>${quotes[i]}</div>`
 }
 
 function inBlockRange(startHour, endHour) {
