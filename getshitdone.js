@@ -1,3 +1,4 @@
+// General logic
 function getshitdone() {
     document.head.innerHTML = `
         <style>

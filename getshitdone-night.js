@@ -15,6 +15,7 @@ function getshitdone() {
 
 function inBlockRange(hour) {
     // Hour range from 0 to 23
+    // Block from 10 PM today to 6 AM tomorrow
     return hour >= 22 || (hour >= 0 && hour <= 6)
 }
 

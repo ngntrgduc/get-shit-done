@@ -1,3 +1,4 @@
+// Block forever
 document.head.innerHTML = `
     <style>
     html {   
