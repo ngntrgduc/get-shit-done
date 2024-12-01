@@ -7,29 +7,19 @@ function getshitdone() {
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
-            font-size: 50pt;
-            color: #fefefe;
-            font-family: Arial, Helvetica, sans-serif;
+            font-size: 100pt;
         }
         </style>`;
-    const quotes = [
-        'GET SHIT DONE',
-        'KEEP CALM',
-    ];
-    let i = Math.floor(Math.random() * quotes.length);
-    document.body.innerHTML = ''; // Clear existing content
-    document.body.innerHTML = `<div>${quotes[i]}</div>`
-    document.title = quotes[i];
+    document.body.innerHTML = `<div>👁️</div>`;
 }
 
-function inBlockRange(hour) {
-    // Block all day except from 6 to 10 AM
+function inBlockRange(startHour, endHour) {
+    // Block if between startHour and endHour
     // Hour range from 0 to 23
-    return !(hour >= 6 && hour < 10)
+    const hour = new Date().getHours();
+    return hour >= startHour && hour < endHour
 }
 
-const date = new Date();
-const hour = date.getHours();
-if (inBlockRange(hour)) {
-    getshitdone();
-}
+
+// if (inBlockRange(0, 6)) getshitdone();
+if (inBlockRange(6, 12)) getshitdone();

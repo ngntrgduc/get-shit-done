@@ -15,24 +15,24 @@
     "content_scripts": [
         {
             "matches": [
-                "https://www.tiktok.com/*",
                 "https://www.facebook.com/watch/*",
-                "https://www.facebook.com/reel/*"
+                "https://www.facebook.com/reel/*",
+                "https://www.tiktok.com/*"
             ],
             "js": ["getshitdone-forever.js"]
         },
         {
             "matches": [
-                "https://www.messenger.com/*"
+                "https://www.messenger.com/*",
+                "https://www.facebook.com/*"
             ],
             "js": ["getshitdone-night.js"]
         },
         {
             "matches": [
-                "https://www.facebook.com/*",
                 "https://www.instagram.com/*"
             ],
-            "js": ["getshitdone.js"]
+            "js": ["getshitdone-except-morning.js"]
         }
     ]
 }

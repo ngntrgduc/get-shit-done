@@ -6,16 +6,7 @@ document.head.innerHTML = `
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        font-size: 50pt;
-        color: #fefefe;
-        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100pt;
     }
     </style>`;
-const quotes = [
-    'GET SHIT DONE',
-    'KEEP CALM',
-];
-const i = Math.floor(Math.random() * quotes.length);
-document.body.innerHTML = ''; // Clear existing content
-document.body.innerHTML = `<div>${quotes[i]}</div>`
-document.title = quotes[i];
+document.body.innerHTML = `<div>👁️</div>`;
