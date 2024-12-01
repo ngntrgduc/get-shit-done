@@ -1,8 +1,5 @@
 # Get shit done
-No more procrastination.
-
-## How it works?
-The extension will "**block**" some specific sites by turning them to a black background with 👁️.
+This browser extension will "**block**" some specific sites by turning them to a black background with 👁️ (Yes, I am watching you 🙂).
 
 ## Features
 - Currently support sites: Facebook, Messenger, Instagram, TikTok (block forever, can be unblocked by turning off the extension ~~permanently~~ **temporarily**.)
@@ -14,6 +11,10 @@ The extension will "**block**" some specific sites by turning them to a black ba
    - `getshitdone-forever.js`: as the name implies, **block forever**
 - Can display your favorite motivational quotes
 - And more, if you know JavaScript, there are lots of things you can do with this extension 😉
+
+## Todo/Idea
+- [ ] Redirect to specific website if blocking
+- [ ] Only allow limit time for each site, using cookie to store time spent
 
 ## How to use
 1. Clone this repository/[download zip](https://github.com/ngntrgduc/get-shit-done/archive/refs/heads/master.zip) and extract to a folder on your local machine. 
@@ -28,9 +29,8 @@ git clone --depth 1 https://github.com/ngntrgduc/get-shit-done.git
  Then turn on `Developer mode`. Finally, click `Load unpacked` and select the folder you have just cloned/downloaded.
 
 
-## Todo/Idea
-- [ ] Redirect to specific website if blocking
-- [ ] Only allow limit time for each site, using cookie to store time spent
+## Contributing
+If you found a bug or want to contribute, feel free to open a issue/pull requests. All contributions are welcomed.
 
 ## Coffee
 If you like this project and want to support me, you can [buy me a coffee :coffee:](https://ko-fi.com/ngntrgduc).
