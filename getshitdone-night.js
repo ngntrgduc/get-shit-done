@@ -15,7 +15,7 @@ function getshitdone() {
 
 function inBlockRange(hour) {
     // Hour range from 0 to 23
-    return hour >= 21 || (hour >= 0 && hour <= 6)
+    return hour >= 22 || (hour >= 0 && hour <= 6)
 }
 
 const hour = new Date().getHours();
