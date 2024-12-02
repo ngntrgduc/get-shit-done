@@ -29,5 +29,8 @@ function inBlockRange(startHour, endHour) {
 }
 
 
-// if (inBlockRange(0, 6)) getshitdone();
-if (inBlockRange(6, 12)) getshitdone();
+if (inBlockRange(0, 6)) getshitdone(); // Sleep
+if (inBlockRange(9, 11)) getshitdone(); // Morning
+// if (inBlockRange(12, 13)) getshitdone(); // Noon
+if (inBlockRange(13, 17)) getshitdone(); // Afternoon
+if (inBlockRange(21, 23)) getshitdone(); // Evening
